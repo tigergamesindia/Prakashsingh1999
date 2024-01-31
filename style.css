@@ -1,9 +1,10 @@
-body{
-    background-color:#fff;
-    margin-left: 10px;
-    
-}
 
+*body{
+  background-color:#fff;
+  font-family: "Montserrat", sans-serif;
+
+  
+}
 .main_banner {
     display: block;
     margin-left: auto;
@@ -19,10 +20,12 @@ body{
     padding: 10px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+
     
     
   }
@@ -50,7 +53,16 @@ body{
     text-align: center;
   }
 
+  .research_img{
+    display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    margin-top: 10px;
+  }
   .prediction_img{
+    display: block;
+      margin-left: 90px;
+       
     margin-top: 10px;
   }
  
@@ -66,12 +78,6 @@ body{
 }
 
 
-
-
-
-* {
-  font-family: Gotham Rounded, sans-serif;
-}
 
 body {
   color: #4a4a4a;
@@ -245,7 +251,11 @@ p {
 .ballebaazi_play .footer_button a span {
   padding-right: 10px;
 }
-
+.review_section{
+  margin-left: 10px;
+  font-size: 12px;
+  color: black;
+}
 .ballebaazi_play .play_step p {
   font-size: 0.75rem !important;
   margin-top: -5px;
@@ -462,18 +472,24 @@ hr {
 
 .is-size-7 {
   font-size: 0.75rem !important;
-  color: #012b4b;
+  color: black;
   
 }
 
 .pararating{
-  color: #012b4b;
+  color: black;
   margin: 15px;
-  font-size: 23px;
+  font-family:font-family: "Montserrat", sans-serif;
+ 
 }
 
+.pararating_para{
+  color: black;
+  margin: 15px;
+  font-size: 29px;
+}
 .has-text-grey {
-  color: #7a7a7a !important;
+  color: black !important;
 }
 
 .grey {
@@ -824,7 +840,7 @@ hr {
   width: 320px;
   background: #012b4b;
   color: #fff;
-  font-family: Varela Round, sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -880,17 +896,6 @@ hr {
   border-color: hsla(0, 0%, 100%, .3137254902)
 }
 
-.green-info {
-  background-color: #39875f;
-  padding: 10px;
-  border-radius: 15px;
-}
-
-.info-text-big {
-  font-size: 12px;
-  font-weight: bold;
-  text-align: left;
-}
 
 .info-text-small {
   font-size: 10px !important;
@@ -946,7 +951,7 @@ hr {
 } */
 
 .why_text_div {
-  font-family: "MOON GET!", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 15px 0px;
   width: 250px;
 }
@@ -1304,4 +1309,10 @@ hr {
 
 .ratingpoints{
   color: black;
+}
+
+.termscondition{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
 }
