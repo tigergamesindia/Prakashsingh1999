@@ -9,7 +9,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 500px; ;
-    width: 600px;
+    width: 500px;
   }
   .btn{
     background-color: #04AA6D;
@@ -29,7 +29,6 @@ body{
   
   .first_para{
     color: black;
-    
     text-align: center;
     margin-top: 20px;
     font-family: "Montserrat", sans-serif;
